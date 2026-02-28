@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "airchat-vibestyle"
+version = "0.2.0"
+description = "Modern Python redesign of AirChat - Amateur Radio Digital Communication System"
+authors = ["AirChat Contributors"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kuorres/AirChat_vibeStyle"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.104.0"
+uvicorn = "^0.24.0"
+pydantic = "^2.0"
+pydantic-settings = "^2.0"
+cryptography = "^41.0.0"
+pyyaml = "^6.0"
+xmlrpc2 = "^0.3.1"
+websockets = "^12.0"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.0"
+pytest-cov = "^4.1.0"
+black = "^23.0.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+mypy = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
